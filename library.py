@@ -10,7 +10,7 @@ class Library():
     def add_title(self, title, author):
         """Add a Book object with the given title and author to the book list"""
         my_book = Book(title, author)
-        self.books.append(my_book)gi
+        self.books.append(my_book)
         pass
 
     def count_books(self):
