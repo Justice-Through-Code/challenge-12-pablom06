@@ -13,6 +13,7 @@ from library import Library
 #   This function does not need any parameters other than self.
 
 
+
 # 2.2 TODO: In this file:
 #   Create an instance of the `Library` class called `my_library`.
 my_library = Library()
@@ -43,6 +44,7 @@ my_library.add_title("The Body Keeps the Score", "Bessel van der Kolk")
 my_library.add_title("Sapiens", "Yuval Noah Harari")
 my_library.add_title("Braiding Sweetgrass", "Robin Wall Kimmerer")
 my_library.add_title("The Warmth of Other Suns", "Isabel Wilkerson")
+
 
 # 3.3 TODO: Print the `books` attribute of my_library again to make sure your books have been added.
 print(my_library.books)
@@ -104,6 +106,7 @@ nyt_bestsellers = Library()
 #   You can find NYT books here: https://www.nytimes.com/books/best-sellers/
 nyt_bestsellers.add_title("The Myth of Normal", "Gabor Maté")
 nyt_bestsellers.add_title("Confidence Man", "Maggie Haberman")
+
 
 
 # 7.3 TODO: In this script:
